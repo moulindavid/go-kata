@@ -6,3 +6,8 @@ type GraphEdge struct {
 }
 
 type WeightedAdjacencyList [][]GraphEdge
+
+type EdgeTuple struct {
+	Current int
+	Edge    GraphEdge
+}
